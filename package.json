@@ -1,0 +1,19 @@
+{
+  "name": "collateral-plus-render-func",
+  "version": "1.0.0",
+  "description": "Render function for collateral plus collaterals",
+  "main": "index.js",
+  "author": "",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha tests/unit/ --timeout 7000"
+  },
+  "devDependencies": {
+    "vercel": "^35.2.2"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "konva": "^9.3.14"
+  }
+}

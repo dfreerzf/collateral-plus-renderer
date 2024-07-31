@@ -1,0 +1,405 @@
+{
+  "className": "Stage",
+  "attrs": {
+    "width": 500,
+    "height": 2000,
+    "background": {
+      "x": 0,
+      "y": 0,
+      "id": "37296016-ed0c-4dcd-9ec9-91e577ceafe0",
+      "fill": "rgba(255, 255, 255, 1)",
+      "width": 500,
+      "height": 2000,
+      "draggable": false,
+      "startColor": "rgba(255, 255, 255, 1)",
+      "fillEnabled": true,
+      "display_name": "Background",
+      "fillPriority": "color"
+    }
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 25.90047893008773,
+            "y": 25.199498383447978,
+            "id": "99b75b1b-3469-4492-91e4-06d83ac8a79f",
+            "text": "Abril Fatface",
+            "width": 240,
+            "height": 65,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "400",
+            "fontFamily": "Abril Fatface",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 32.04494111268377,
+            "y": 75.66639109090727,
+            "id": "60515045-f29e-451d-9995-1f8776c6d6fb",
+            "text": "Arial",
+            "width": 240,
+            "height": 65,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "400",
+            "fontFamily": "Arial",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 32.40609656917266,
+            "y": 128.06027868919782,
+            "id": "18d86b5a-c4ef-46e6-b31f-fab414881c0f",
+            "text": "Arvo",
+            "width": 453.2214578770406,
+            "height": 64.99999999999994,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "400",
+            "fontFamily": "Arvo",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 39.39486129100294,
+            "y": 192.84805388577917,
+            "id": "b49e335d-4ba9-473b-b964-4f30f883725b",
+            "text": "Bebas Neue",
+            "width": 240,
+            "height": 65,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "400",
+            "fontFamily": "Bebas Neue",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 33.611554564893545,
+            "y": 252.58489550155238,
+            "id": "6bce2afb-a242-4aa5-b094-6fe48f7e73c7",
+            "text": "Comfortaa",
+            "width": 395.9675478915411,
+            "height": 64.9999999999999,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "400",
+            "fontFamily": "Comfortaa",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 33.61155456489655,
+            "y": 331.5916860256396,
+            "id": "b3707948-47c6-4de0-923b-6ccc197ca1e7",
+            "text": "Corben",
+            "width": 240,
+            "height": 65,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "400",
+            "fontFamily": "Corben",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 33.61155456489655,
+            "y": 395.18251742307575,
+            "id": "5cc8146e-40f7-4199-8990-7e35a51dcb09",
+            "text": "Impact",
+            "width": 240,
+            "height": 65,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "400",
+            "fontFamily": "Impact",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 29.75601674748863,
+            "y": 458.7733488205105,
+            "id": "31b6429b-776d-4e4e-828d-5f44241f58e4",
+            "text": "Inter",
+            "width": 443.3500940864398,
+            "height": 64.99999999999994,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "400",
+            "fontFamily": "Inter",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 33.61155456489644,
+            "y": 543.5611240170931,
+            "id": "e620e945-2046-4d89-a486-f5a1a76a97d7",
+            "text": "Lato",
+            "width": 240,
+            "height": 65,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "400",
+            "fontFamily": "Lato",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 37.46709238230096,
+            "y": 607.1519554145292,
+            "id": "b57b515b-bda8-42a9-9ece-d10e961673c0",
+            "text": "Lato",
+            "width": 240,
+            "height": 65,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "300",
+            "fontFamily": "Lato",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 39.394861291000836,
+            "y": 668.8157919211328,
+            "id": "df26ad14-529d-422c-929a-1a84703f2ec1",
+            "text": "Montserrat",
+            "width": 413.736002714627,
+            "height": 64.99999999999991,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "400",
+            "fontFamily": "Montserrat",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 41.3226301997048,
+            "y": 745.8955875543895,
+            "id": "bfb5d2f7-4104-418d-a20c-971a498b695a",
+            "text": "Pacifico",
+            "width": 240,
+            "height": 65,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "400",
+            "fontFamily": "Pacifico",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 37.46709238229892,
+            "y": 809.4864189518254,
+            "id": "5f17035f-425a-4a39-a02c-9641fa3854af",
+            "text": "Poppins",
+            "width": 433.4787302958341,
+            "height": 64.99999999999989,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "400",
+            "fontFamily": "Poppins",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 37.46709238230096,
+            "y": 876.9312401309245,
+            "id": "e9741ece-d63c-4068-8a07-f8edee1d50e3",
+            "text": "Raleway",
+            "width": 240,
+            "height": 65,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "400",
+            "fontFamily": "Raleway",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 39.39486129100271,
+            "y": 940.5220715283604,
+            "id": "42296c1b-b496-4f64-b84d-3d4472fee1b6",
+            "text": "Roboto",
+            "width": 240,
+            "height": 65,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "400",
+            "fontFamily": "Roboto",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 41.32263019970492,
+            "y": 994.47792847164,
+            "id": "27609b98-a707-411c-b9e1-b6a28e6ded26",
+            "text": "Source Sans Pro",
+            "width": 240,
+            "height": 65,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "400",
+            "fontFamily": "Source Sans Pro",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 41.322630199700896,
+            "y": 1058.0687598690727,
+            "id": "ba38d0d6-1793-4974-bc1b-f5053ea70083",
+            "text": "Lato",
+            "width": 397.94182064966276,
+            "height": 64.99999999999973,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "italic 100",
+            "fontFamily": "Lato",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#000000",
+            "x": 44.71846730133912,
+            "y": 1115.2804031377698,
+            "id": "6e424be7-531e-404a-9aa5-f70d0519dd40",
+            "text": "Montserrat",
+            "width": 419.65882098899067,
+            "height": 64.99999999999974,
+            "locked": false,
+            "stroke": "#021656",
+            "fontSize": 30,
+            "selected": false,
+            "draggable": true,
+            "fontStyle": "italic 400",
+            "fontFamily": "Montserrat",
+            "strokeWidth": 0,
+            "display_name": "Text"
+          }
+        }
+      ],
+      "className": "Layer"
+    }
+  ]
+}

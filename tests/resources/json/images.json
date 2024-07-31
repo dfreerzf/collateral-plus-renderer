@@ -1,0 +1,293 @@
+{
+  "className": "Stage",
+  "attrs": {
+    "width": 500,
+    "height": 500,
+    "background": {
+      "x": 0,
+      "y": 0,
+      "fill": "#CF0606",
+      "width": 500,
+      "height": 500,
+      "draggable": false,
+      "id": "72e3f6f1-e71c-49bc-9384-ade88d60daf1",
+      "fillPriority": "color",
+      "fillEnabled": true,
+      "display_name": "Background"
+    }
+  },
+  "children": [
+    {
+      "children": [
+        {
+          "className": "Image",
+          "attrs": {
+            "id": "bf8302de-33e5-45ab-bc82-41280a389c07",
+            "media": {
+              "id": 2233,
+              "disk": "do_public",
+              "name": "ECB_National-Video-Games-Day_Market-Activation_Gameplay_Mobile-Push_500x500",
+              "size": 137701,
+              "urls": {
+                "thumb": {
+                  "url": "https:\/\/collateralplus.nyc3.cdn.digitaloceanspaces.com\/agencies\/cal\/templates\/9c5f308a-1a25-46f2-a885-ed2675f819bf\/ECB_National-Video-Games-Day_Market-Activation_Gameplay_Mobile-Push_500x500-thumb.png",
+                  "width": 100,
+                  "height": 100
+                },
+                "scaled": {
+                  "url": "https:\/\/collateralplus.nyc3.cdn.digitaloceanspaces.com\/agencies\/cal\/templates\/9c5f308a-1a25-46f2-a885-ed2675f819bf\/ECB_National-Video-Games-Day_Market-Activation_Gameplay_Mobile-Push_500x500-scaled.png",
+                  "width": 800,
+                  "height": 800
+                },
+                "original": {
+                  "url": "https:\/\/collateralplus.nyc3.cdn.digitaloceanspaces.com\/agencies\/cal\/templates\/9c5f308a-1a25-46f2-a885-ed2675f819bf\/ECB_National-Video-Games-Day_Market-Activation_Gameplay_Mobile-Push_500x500.png",
+                  "width": 500,
+                  "height": 500
+                }
+              },
+              "uuid": "3ef5be43-a1c2-499a-86b4-53a25e08ff0a",
+              "width": 500,
+              "height": 500,
+              "category": null,
+              "model_id": "9c5f308a-1a25-46f2-a885-ed2675f819bf",
+              "file_name": "ECB_National-Video-Games-Day_Market-Activation_Gameplay_Mobile-Push_500x500.png",
+              "mime_type": "image\/png",
+              "created_at": "2024-06-25T14:41:42.000000Z",
+              "model_type": "App\\Models\\Template",
+              "updated_at": "2024-06-25T14:41:42.000000Z",
+              "preview_url": null,
+              "uploaded_by": {
+                "id": "9c5f17b0-9156-42c1-b3ff-6ab53740cb2a",
+                "last": "Admin",
+                "email": "hello@zfactor.ca",
+                "first": "System",
+                "status": {
+                  "id": "active",
+                  "name": "Active",
+                  "slug": "active",
+                  "context": "green"
+                },
+                "initial": "S",
+                "avatar_url": null,
+                "created_at": "06\/25\/2024 1:32 pm",
+                "updated_at": "06\/25\/2024 1:32 pm",
+                "display_name": "System Admin",
+                "email_verified_at": null,
+                "signup_email_sent_at": null
+              },
+              "original_url": "https:\/\/collateralplus.nyc3.cdn.digitaloceanspaces.com\/agencies\/cal\/templates\/9c5f308a-1a25-46f2-a885-ed2675f819bf\/ECB_National-Video-Games-Day_Market-Activation_Gameplay_Mobile-Push_500x500.png",
+              "collection_name": "media-library"
+            },
+            "draggable": true,
+            "display_name": "Background Image",
+            "originalWidth": 500,
+            "originalHeight": 500,
+            "strokeWidth": 0,
+            "stroke": "#092950"
+          }
+        },
+        {
+          "className": "Image",
+          "attrs": {
+            "x": 28,
+            "y": 37,
+            "id": "f60ba228-09c2-4c35-88f7-ae3c6df90ac9",
+            "media": {
+              "id": 4,
+              "disk": "do_public",
+              "name": "your-brand-placeholder-logo-white-v2",
+              "size": 27096,
+              "urls": {
+                "thumb": {
+                  "url": "https:\/\/collateralplus.nyc3.cdn.digitaloceanspaces.com\/core\/media-library\/your-brand-placeholder-logo-white-v2-thumb.png",
+                  "width": 100,
+                  "height": 23
+                },
+                "scaled": {
+                  "url": "https:\/\/collateralplus.nyc3.cdn.digitaloceanspaces.com\/core\/media-library\/your-brand-placeholder-logo-white-v2-scaled.png",
+                  "width": 800,
+                  "height": 188
+                },
+                "original": {
+                  "url": "https:\/\/collateralplus.nyc3.cdn.digitaloceanspaces.com\/core\/media-library\/your-brand-placeholder-logo-white-v2.png",
+                  "width": 2560,
+                  "height": 601
+                }
+              },
+              "uuid": "5c31eb50-986a-4e0a-aba4-f38d4c014517",
+              "width": 2560,
+              "height": 601,
+              "category": "logo",
+              "model_id": "9c5f17b0-9543-4b2d-97f8-7c363dd57354",
+              "file_name": "your-brand-placeholder-logo-white-v2.png",
+              "mime_type": "image\/png",
+              "created_at": "2024-06-25T13:38:31.000000Z",
+              "model_type": "App\\Models\\Application",
+              "updated_at": "2024-06-25T13:38:32.000000Z",
+              "preview_url": null,
+              "uploaded_by": {
+                "id": "9c5f17b0-9156-42c1-b3ff-6ab53740cb2a",
+                "last": "Admin",
+                "email": "hello@zfactor.ca",
+                "first": "System",
+                "status": {
+                  "id": "active",
+                  "name": "Active",
+                  "slug": "active",
+                  "context": "green"
+                },
+                "initial": "S",
+                "avatar_url": null,
+                "created_at": "06\/25\/2024 1:32 pm",
+                "updated_at": "06\/25\/2024 1:32 pm",
+                "display_name": "System Admin",
+                "email_verified_at": null,
+                "signup_email_sent_at": null
+              },
+              "original_url": "https:\/\/collateralplus.nyc3.cdn.digitaloceanspaces.com\/core\/media-library\/your-brand-placeholder-logo-white-v2.png",
+              "collection_name": "media-library"
+            },
+            "width": 155,
+            "height": 37,
+            "draggable": true,
+            "display_name": "Image",
+            "originalWidth": 400,
+            "originalHeight": 94,
+            "strokeWidth": 0,
+            "stroke": "#092950"
+          }
+        },
+        {
+          "className": "Image",
+          "attrs": {
+            "x": 222,
+            "y": 36,
+            "id": "be71d800-38c8-4adf-b980-b6c9c725a41f",
+            "media": {
+              "id": 2095,
+              "disk": "do_public",
+              "name": "ProtectIQ-Logo",
+              "size": 26649,
+              "urls": {
+                "thumb": {
+                  "url": "https:\/\/collateralplus.nyc3.cdn.digitaloceanspaces.com\/agencies\/cal\/media-library\/ProtectIQ-Logo-thumb.png",
+                  "width": 100,
+                  "height": 23
+                },
+                "scaled": {
+                  "url": "https:\/\/collateralplus.nyc3.cdn.digitaloceanspaces.com\/agencies\/cal\/media-library\/ProtectIQ-Logo-scaled.png",
+                  "width": 800,
+                  "height": 181
+                },
+                "original": {
+                  "url": "https:\/\/collateralplus.nyc3.cdn.digitaloceanspaces.com\/agencies\/cal\/media-library\/ProtectIQ-Logo.png",
+                  "width": 1920,
+                  "height": 435
+                }
+              },
+              "uuid": "46877e75-07c5-41ca-bcf6-22271003b422",
+              "width": 1920,
+              "height": 435,
+              "category": null,
+              "model_id": "9c5f17b3-70ee-4cd8-8c46-0fed9fbfc62c",
+              "file_name": "ProtectIQ-Logo.png",
+              "mime_type": "image\/png",
+              "created_at": "2024-06-25T14:38:17.000000Z",
+              "model_type": "App\\Models\\Agency",
+              "updated_at": "2024-06-25T14:38:17.000000Z",
+              "preview_url": null,
+              "uploaded_by": {
+                "id": "9c5f17b0-9156-42c1-b3ff-6ab53740cb2a",
+                "last": "Admin",
+                "email": "hello@zfactor.ca",
+                "first": "System",
+                "status": {
+                  "id": "active",
+                  "name": "Active",
+                  "slug": "active",
+                  "context": "green"
+                },
+                "initial": "S",
+                "avatar_url": null,
+                "created_at": "06\/25\/2024 1:32 pm",
+                "updated_at": "06\/25\/2024 1:32 pm",
+                "display_name": "System Admin",
+                "email_verified_at": null,
+                "signup_email_sent_at": null
+              },
+              "original_url": "https:\/\/collateralplus.nyc3.cdn.digitaloceanspaces.com\/agencies\/cal\/media-library\/ProtectIQ-Logo.png",
+              "collection_name": "media-library"
+            },
+            "width": 161,
+            "height": 38,
+            "draggable": true,
+            "display_name": "Image",
+            "originalWidth": 250,
+            "originalHeight": 57,
+            "strokeWidth": 0,
+            "stroke": "#092950"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#FFFFFF",
+            "x": 25,
+            "y": 140,
+            "id": "775ba5a5-b0ac-4173-aabb-390a387e46aa",
+            "text": "Defend Your",
+            "width": 471,
+            "height": 66,
+            "fontSize": 37,
+            "draggable": true,
+            "fontStyle": "700",
+            "fontFamily": "Poppins",
+            "display_name": "Defend Your",
+            "strokeWidth": 0,
+            "stroke": "#092950"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#FF981D",
+            "x": 23,
+            "y": 178,
+            "id": "ff5ba2da-cf98-4ce2-acaa-f3df42b38065",
+            "text": "Gameplay",
+            "width": 241,
+            "height": 55,
+            "fontSize": 37,
+            "draggable": true,
+            "fontStyle": "700",
+            "fontFamily": "Poppins",
+            "display_name": "Gameplay",
+            "strokeWidth": 0,
+            "stroke": "#092950"
+          }
+        },
+        {
+          "className": "Text",
+          "attrs": {
+            "fill": "#FFFFFF",
+            "x": 24,
+            "y": 226,
+            "id": "f1c7e0ca-6706-41d5-b7e6-3cc630d2dc85",
+            "text": "Keep your mobile gaming safe from threats with ProtectIQ®",
+            "width": 256,
+            "height": 108,
+            "fontSize": 16,
+            "draggable": true,
+            "fontStyle": "400",
+            "fontFamily": "Poppins",
+            "lineHeight": 1.3,
+            "display_name": "Keep your mobil ...",
+            "strokeWidth": 0,
+            "stroke": "#092950"
+          }
+        }
+      ],
+      "className": "Layer"
+    }
+  ]
+}
