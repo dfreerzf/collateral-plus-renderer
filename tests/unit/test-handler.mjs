@@ -11,7 +11,7 @@ import { fileURLToPath } from 'url'
 import { lambdaHandler } from '../../index.js'
 import { expect } from 'chai'
 
-process.env.GOOGLE_FONTS_API_KEY = 'AIzaSyBlzbhsdwnpphQNZB28x1OgtYtUoT8abkg'
+process.env.GOOGLE_FONTS_API_KEY = ''
 
 const __dirname = dirname(fileURLToPath(import.meta.url)).replace('/tests/unit', '')
 
