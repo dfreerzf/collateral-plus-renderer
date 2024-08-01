@@ -86,7 +86,7 @@ const loadFonts = async (stage) => {
       fileKey = `${fontConfig.weight}italic`
     }
 
-    writeLog(`fileKey: ${fileKey}`)
+    // writeLog(`fileKey: ${fileKey}`)
     // log(font.files)
 
     // get the url, and local file name - also the cach key
@@ -114,12 +114,16 @@ const loadFonts = async (stage) => {
     // save the file to local disk
     // wrapped in try in case the file exists
     const fontPath = `${fontsPath}/${localFilename}`
+    writeLog(`writeFileSync: [${fontPath}]`)
     try {
-      writeLog(`writeFileSync: [${fontPath}]`)
       const arrayBuffer = await ttf.arrayBuffer()
       const buffer = Buffer.from(arrayBuffer)
       writeFileSync(fontPath, buffer)
-    } catch (error) { }
+      writeLog(`saved font file successfully!`)
+    } catch (error) {
+      writeLog('Error saving fon!')
+      writeLog(error)
+    }
 
     // registerFont: https://github.com/Automattic/node-canvas?tab=readme-ov-file#registerfont
     writeLog(`registerFont(${fontPath}, ${Object.keys(fontConfig).map(prop => `${prop}:${fontConfig[prop]}`).join(',')})`)
@@ -205,7 +209,7 @@ export default async function handler(req, res) {
     await loadImages(stage)
     writeLog(`... done loading images`)
 
-    await sleep(500)
+    await sleep(2000)
 
     writeLog('Fix text ...')
     await fixText(stage)
