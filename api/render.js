@@ -17,6 +17,7 @@ const writeLog = (message) => {
     message = Object.keys(message).map((k) => `${k}: ${message[k]}`)
   }
   logs.push(message)
+  log(message)
 }
 
 const responseWrapper = {
@@ -25,6 +26,7 @@ const responseWrapper = {
   },
   error: (res, message, code = 400) => {
     writeLog(`ERROR: ${message}`)
+    error(message)
     return res.status(code).json({ error: true, message: logs })
   }
 }
