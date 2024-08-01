@@ -4,7 +4,6 @@
   "description": "Render function for collateral plus collaterals",
   "main": "index.js",
   "author": "",
-  "type": "module",
   "license": "MIT",
   "scripts": {
     "test": "mocha tests/unit/ --timeout 7000"

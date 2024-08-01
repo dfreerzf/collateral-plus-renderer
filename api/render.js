@@ -8,21 +8,24 @@ const { writeFileSync } = require('fs')
 const { tmpdir } = require('os')
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
-const testing = env.NODE_ENV === 'testing' ?? false
+const testing = env.NODE_ENV === 'testing' || env.__VERCEL_DEV_RUNNING
 
 const logs = []
 
 const writeLog = (message) => {
+  if (typeof message === 'object') {
+    message = Object.keys(message).map((k) => `${k}: ${message[k]}`)
+  }
   logs.push(message)
 }
 
 const responseWrapper = {
   success: (res, image) => {
-    return res.send(image).status(200).headers({ 'Content-Type': 'image/png' })
+    return res.json({ logs, image: image })
   },
   error: (res, message, code = 400) => {
-    logs.push(`ERROR: ${message}`)
-    return res.json(logs).status(code)
+    writeLog(`ERROR: ${message}`)
+    return res.status(code).json({ error: true, message: logs })
   }
 }
 
@@ -89,7 +92,7 @@ const loadFonts = async (stage) => {
     // get the url, and local file name - also the cach key
     const fileUrl = font.files[fileKey]
 
-    const localFilename = `${fontFamily.replaceAll(' ', '-').toLowerCase()}-${fileKey}-${fileUrl.replace('https://fonts.gstatic.com/s/', '').replaceAll('/', '-')}`
+    const localFilename = `${fontFamily.replaceAll(' ', '-').toLowerCase()}-${fileKey}-${font.version}-${font.lastModified}.ttf`
 
     writeLog(`cacheKey: ${localFilename}`)
 
@@ -99,7 +102,7 @@ const loadFonts = async (stage) => {
     }
 
     // fetch the ttf
-    const fontsPath = testing ? `${process.env.BASE_PATH}/fonts` : tmpdir()
+    const fontsPath = testing ? `./tests/resources/fonts` : tmpdir()
     writeLog(`Downloading font from ${fileUrl}`)
     const ttf = await fetch(fileUrl).then(res => {
       if (!res.ok) {
@@ -145,6 +148,7 @@ const fixText = async (stage) => {
 
 const addBackgroundToJson = (json) => {
 
+  // writeLog(Object.keys(json).join(', '))
   const { attrs = null } = json
   if (!attrs) {
     writeLog('No need to add bg layer. !attrs')
@@ -173,10 +177,11 @@ const addBackgroundToJson = (json) => {
 
 export default async function handler(req, res) {
 
-  const { json = {} } = req.query
+  let { json = {} } = req?.body
 
+  writeLog(__dirname)
   writeLog(`Node Version: ${version}`)
-  writeLog(`Node Environment: ${Object.keys(env).map(k => `${k}:${env[k]}`).join('; ')}`)
+  // writeLog(`Node Environment: ${Object.keys(env).map(k => `${k}:${env[k]}`).join('; ')}`)
   writeLog(`Konva Version: ${Konva.version}`)
 
   if (!Object.keys(json).length) {
@@ -189,7 +194,7 @@ export default async function handler(req, res) {
     writeLog('... done adding background layer to JSON')
 
     writeLog('Creating konva stage with json...')
-    const stage = Konva.Node.create(JSON.stringify(json))
+    const stage = Konva.Node.create(json)
     writeLog('... done creating konva stage with json')
 
     writeLog('Loading fonts...')
@@ -207,12 +212,13 @@ export default async function handler(req, res) {
     writeLog(`... done fixing text`)
 
     writeLog('Generating image...')
-    const image = stage.toCanvas().toBuffer('image/png')
+    // const image = stage.toCanvas().toBuffer('image/png')
+    const image = await stage.toImage()
     writeLog('... done generating image')
 
     return responseWrapper.success(res, image)
 
   } catch (error) {
-    return responseWrapper.error(res, 'Catch error', 401)
+    return responseWrapper.error(res, error, 401)
   }
 }
